@@ -4,7 +4,7 @@ var express = require('express'),
     db = require('./libs/database');
  
 var app = express();
-app.get('/trending', trending.getTrending);
+app.get('/api/trending', trending.getTrending);
 app.listen(3000);
 console.log('Listening on port 3000...');
 

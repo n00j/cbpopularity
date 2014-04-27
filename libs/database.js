@@ -1,5 +1,8 @@
-// Just store the data in memory instead of an actual database
+// Just store the data in memory instead of an actual datastore
 // since we are working with a relatively small dataset
+
+// If we needed the data to be accessable accross servers,
+// we would need an actual datastore
 var db = {};
 
 exports.storeHostTopPages = function(host, data) {
