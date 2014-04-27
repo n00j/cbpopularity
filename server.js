@@ -10,4 +10,4 @@ console.log('Listening on port 3000...');
 
 
 // Retrieve data from Chartbeat toppages every 5 seconds
-chartbeat.processSubscriptions(db);
+chartbeat.processSubscriptions();
