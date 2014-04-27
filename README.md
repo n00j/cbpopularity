@@ -10,7 +10,6 @@ Dependencies: requires nodejs 0.10.26
 # API
 ## Trending (/api/trending)
 ### GET
-- Requred parameters:
-1. host
+- Requred parameters: host
 
 Returns pages for the host which are increasing in visitors
